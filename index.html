@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MyQuiz Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      //Your web app's Firebase configuration
+ 
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDSK3UNUCXkpHGLWMJa3V0gOw3F4MP6kls",
+    authDomain: "my-quiz-game-8818a.firebaseapp.com",
+    databaseURL: "https://my-quiz-game-8818a-default-rtdb.firebaseio.com",
+    projectId: "my-quiz-game-8818a",
+    storageBucket: "my-quiz-game-8818a.appspot.com",
+    messagingSenderId: "920853956627",
+    appId: "1:920853956627:web:e225e955c745257c2757e6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <script src="js/contestant.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/question.js"></script>
+  </body>
+</html>
